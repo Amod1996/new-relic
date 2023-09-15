@@ -19,10 +19,10 @@ Before proceeding, please ensure that you have Docker/Go  installed and running 
 
 ## Steps to run in your system
 1. **Step1: Make sure you have golang Installed (1.20)
-2. **Step2: ``` go run server/main.go file2.txt``` to run the code with sample file2.txt
-3. **Step3: If you want to provide input from STDIN```go build main.go``` and then ```cat file2.txt | ./main -```
+2. **Step2: ```go run server/main.go file2.txt``` to run the code with sample file2.txt
+3. **Step3: If you want to provide input from STDIN```go build server/main.go``` and then ```cat file2.txt | ./main -```
 
-The sample files used are file1.txt and file2.txt. And the sample output is below for file2.txt.
+The sample files used are file1.txt and file2.txt. And the sample output below is for file2.txt.
 "file1.txt" has also been tested and it has more lines.
 ```
 Top 100 three-word sequences:

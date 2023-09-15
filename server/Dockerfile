@@ -12,4 +12,4 @@ RUN go build  -o three_word_occurance_calculator
 
 EXPOSE 8080
 
-CMD ["./three_word_occurance_calculator","file1.txt"]
+CMD ["./three_word_occurance_calculator","file2.txt"]

@@ -118,7 +118,8 @@ func printTopSequences(sequencesCount map[string]int, n int) {
 func sortByCountDesc(counts []struct {
 	seq   string
 	count int
-}) {
+},
+) {
 	sort.Slice(counts, func(i, j int) bool {
 		if counts[i].count == counts[j].count {
 			return counts[i].seq < counts[j].seq
