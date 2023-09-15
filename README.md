@@ -1,4 +1,4 @@
-# React Application for Invoices
+# Golang Program to list 100 most common three word sequences in the text 
 
 **Objective:**  
 To write a Go program to provide a list of the 100 most common three word sequences in the text,
